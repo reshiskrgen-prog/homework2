@@ -1,7 +1,7 @@
-print("Informatio Table")
+print("Information Table")
 table = {}
 
-print("Please enter 5 pairs of items (e.g., Apple and Red):")
+print(" Enter five items and their values like: (e.g., Apple and Red):")
 
 # 1. Ask the user for 5 pairs
 for i in range(5):
@@ -10,7 +10,7 @@ for i in range(5):
     value = input("Enter Item 2: ")
     table[key] = value
 
-# 2. Print a clean, formatted table
+
 print("\nYour Formatted Table:")
 print("-" * 30)
 print(f"{'Item 1':<15} | {'Item 2'}")
